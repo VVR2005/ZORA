@@ -1,0 +1,14 @@
+PySide6>=6.5
+matplotlib>=3.7
+numpy>=1.24
+
+# Docking (optional)
+rdkit>=2023.3
+meeko>=0.5
+
+# External tools (must be on PATH or configured via env vars)
+#   vina      - AutoDock Vina  (set ZORA_VINA_PATH)
+#   obabel    - Open Babel    (set ZORA_OBABEL_PATH)
+#   pymol     - PyMOL
+#   chimerax  - ChimeraX
+#   snapgene  - SnapGene
