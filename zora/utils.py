@@ -205,7 +205,11 @@ class ExternalToolLauncher:
 class PluginManager:
     def __init__(self):
         self.plugins = []
-        self.plugin_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'plugins')
+        # Project root is one level up from zora/utils.py, or zora_main.py dir
+        here = os.path.dirname(os.path.abspath(__file__))
+        parent = os.path.dirname(here)
+        default = os.path.join(parent, 'plugins')
+        self.plugin_dir = os.environ.get('ZORA_PLUGIN_DIR', default)
 
     def discover_plugins(self):
         if not os.path.isdir(self.plugin_dir):

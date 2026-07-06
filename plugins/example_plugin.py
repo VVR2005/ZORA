@@ -15,7 +15,7 @@ def register_plugin():
 def run_gc_stats():
     """Called when user activates this plugin from menu."""
     from PySide6.QtWidgets import QMessageBox, QApplication
-    from zora_main import SeqUtils
+    from zora.models import SeqUtils
 
     # Find main window
     app = QApplication.instance()

@@ -4360,7 +4360,8 @@ class DockingEngine:
 class PluginManager:
     def __init__(self):
         self.plugins = []
-        self.plugin_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'plugins')
+        default = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'plugins')
+        self.plugin_dir = os.environ.get('ZORA_PLUGIN_DIR', default)
 
     def discover_plugins(self):
         if not os.path.isdir(self.plugin_dir):
