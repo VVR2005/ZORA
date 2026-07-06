@@ -51,7 +51,19 @@ python zora_main.py
 
 ## Screenshots
 
-> *Screenshots coming soon.*
+| Tab | Screenshot |
+|-----|-----------|
+| **Main Window** | ![Main Window](screenshots/00_main_window.png) |
+| **Sequence Viewer** | ![Sequence Viewer](screenshots/01_sequence_viewer.png) |
+| **Analysis** | ![Analysis](screenshots/02_analysis.png) |
+| **Mutations** | ![Mutations](screenshots/03_mutations.png) |
+| **Alignment** | ![Alignment](screenshots/04_alignment.png) |
+| **Graphs** | ![Graphs](screenshots/05_graphs.png) |
+| **Interactive Viewer** | ![Interactive Viewer](screenshots/06_interactive_viewer.png) |
+| **CRISPR** | ![CRISPR](screenshots/07_crispr.png) |
+| **AI Analysis** | ![AI Analysis](screenshots/08_ai_analysis.png) |
+| **Integrations** | ![Integrations](screenshots/09_integrations.png) |
+| **Docking** | ![Docking](screenshots/10_docking.png) |
 
 ---
 
